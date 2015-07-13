@@ -1,0 +1,34 @@
+@import 'ember-paper';
+
+.ember-app {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  padding: 50px;
+  max-width: 864px;
+  margin: auto;
+}
+
+.active { 
+  background-color: #C5CAE9;
+}
+
+.home-card {
+  max-height:400px;
+  max-width:400px;
+  float: left;
+  margin-left: 20px;
+  .md-toolbar-tools {
+    background-color: #E91E63;
+  }
+  p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+

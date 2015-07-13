@@ -1,3 +1,35 @@
-<h2 id="title">Welcome to Ember.js</h2>
+{{#paper-nav-container open=drawerOpen classNames="ember-app"}}
+  {{#paper-sidenav classNames="md-sidenav-left md-whiteframe-z2" flex-layout="column" flex=true }}
+    {{#paper-toolbar}}
+      <div class="md-toolbar-tools">
+        <img src="/images/ember-logo.png" height="50">&nbsp;&nbsp;<strong>Paper</strong>
+      </div>
+    {{/paper-toolbar}}
+    {{#paper-content}}
+      {{#paper-list}}
+        <div class={{isHomeActive}}>
+          {{#paper-item action="transitionTo" param="home"}}
+            {{paper-icon icon="home" size="lg"}}
+              Home
+          {{/paper-item}}
+        </div>
+        <div class={{isProjectsActive}}>
+          {{#paper-item action="transitionTo" param="projects"}}
+            {{paper-icon icon="photo" size="lg"}}
+              Projects
+          {{/paper-item}}
+        </div>
+        <div class={{isSignUpActive}}>
+          {{#paper-item action="transitionTo" param="sign-up"}}
+            {{paper-icon icon="mail" size="lg"}}
+              Sign Up
+          {{/paper-item}}
+        </div>
+     {{/paper-list}}
+    {{/paper-content}}
+  {{/paper-sidenav}}
 
-{{outlet}}
+  {{#paper-content flex-layout="column" flex=true}}
+    {{outlet}}
+  {{/paper-content}}
+{{/paper-nav-container}}

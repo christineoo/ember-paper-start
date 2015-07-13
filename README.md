@@ -1,7 +1,8 @@
 # Ember-paper-start
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This sample application aims to serve as a skeleton appplication for a typical web application written using <a href="http://emberjs.com/">EmberJS</a> with <a href="https://github.com/miguelcobain/ember-paper">Ember Paper</a>. This sample application consists of a sidenav and a content area. The sidenav will be auto hidden when the webpage is resize.
+
+TODO: Add more info to this section
 
 ## Prerequisites
 

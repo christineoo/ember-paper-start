@@ -1,0 +1,37 @@
+{{#paper-toolbar}}
+<div class="md-toolbar-tools">
+  <h2 flex=true>
+    {{#paper-sidenav-toggle class="menu-sidenav-toggle"}}
+      {{paper-icon icon="menu"}}
+    {{/paper-sidenav-toggle}}
+    Sign Up 
+  </h2>
+</div>
+{{/paper-toolbar}}
+
+{{#paper-content}}
+  <div class="container">
+    {{paper-input label="Name" value=name}}
+    {{paper-input label="E-mail" type="email" value=email}}
+    {{paper-input textarea=true label="Address" value=address}}
+
+    <p><strong>Select your avatar:</strong></p>
+    {{#paper-radio value="ember-logo" selected=selectedValue}}
+      <img src="/images/ember-logo.png" height="100">        
+    {{/paper-radio}}
+  
+    {{#paper-radio value="ember-logo-2" selected=selectedValue}}
+      <img src="/images/ember-logo-2.png" height="100">
+    {{/paper-radio}}
+
+    {{#paper-radio value="ember-logo-3" selected=selectedValue}}
+      <img src="/images/ember-logo-3.png" height="100">
+    {{/paper-radio}}
+
+    {{#paper-checkbox checked=value1}}Receive newsletters{{/paper-checkbox}}    
+
+    {{#paper-button raised=true classNames="md-primary" action="submit" param=true}}Sign-Up Now :D{{/paper-button}}    
+    {{#paper-button raised=true action="submit" param=false}}Later :( {{/paper-button}}
+
+  </div>
+{{/paper-content}}
