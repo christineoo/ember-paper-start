@@ -4,8 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-paper-start',
     environment: environment,
-    baseURL: '/',
-    locationType: 'auto',
+    baseURL: '/ember-paper-start',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
