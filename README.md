@@ -6,7 +6,12 @@ This sample application consists of a sidenav and a content area. The sidenav wi
 
 Check out [Ember Paper](http://miguelcobain.github.io/ember-paper/) for more Material Design components that you can use in your web application!
 
-This project is generated using ember-cli version 1.13.1.
+This project is generated using:
+
+* Ember &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: v1.11.1
+* Ember Data &nbsp;&nbsp;&nbsp;: v1.0.0-beta.16.1
+* Ember-CLI &nbsp;&nbsp;&nbsp;&nbsp;: v1.13.1
+* Ember-Paper : v0.2.4
 
 ### Demo
 
