@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-paper-start',
     environment: environment,
-    baseURL: '/ember-paper-start',
+    baseURL: '/',
     locationType: 'hash',
     EmberENV: {
       FEATURES: {
