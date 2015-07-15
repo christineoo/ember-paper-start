@@ -2,6 +2,36 @@
 
 This sample application aims to serve as a skeleton appplication for a typical web application written using <a href="http://emberjs.com/">EmberJS</a> with <a href="https://github.com/miguelcobain/ember-paper">Ember Paper</a>. This sample application consists of a sidenav and a content area. The sidenav will be auto hidden when the webpage is resize.
 
+
+This project is generated using ember-cli version 1.13.1.
+
+### Project Structure
+
+    app/
+        components/            --> contains the component source files (none for this project)
+        controllers/           --> contains the controller source files for this project
+            application.js
+            sign-up.js
+        helpers/
+        models/
+        routes/
+            application.js
+        styles/
+            app.css
+            app.scss
+        templates/             --> contains the template files for each of the available routes
+            components/        --> contains the component templace files (none for this project)
+            application.hbs
+            home.hbs
+            index.hbs
+            projects.hbs
+            sign-up.hbs
+        views/
+            application.js
+        app.js
+        index.html
+        router.js
+        
 TODO: Add more info to this section
 
 ## Prerequisites
