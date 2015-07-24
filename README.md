@@ -1,4 +1,4 @@
-# Ember-paper-start
+# Ember Paper Start
 
 This sample application aims to serve as a skeleton appplication for a typical web application written using <a href="http://emberjs.com/">EmberJS</a> with <a href="https://github.com/miguelcobain/ember-paper">Ember Paper</a>.
 
