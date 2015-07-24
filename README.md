@@ -11,7 +11,7 @@ This project is generated using:
 * Ember &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: v1.11.1
 * Ember Data &nbsp;&nbsp;&nbsp;: v1.0.0-beta.16.1
 * Ember-CLI &nbsp;&nbsp;&nbsp;&nbsp;: v1.13.1
-* Ember-Paper : v0.2.4
+* Ember-Paper : v0.2.6
 
 ### Demo
 
